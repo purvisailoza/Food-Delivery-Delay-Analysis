@@ -1,0 +1,6 @@
+Issue,Rows affected,Action,Why
+Ratings > 5,53,Set to missing,Rating scale is 1-5
+Age < 18,38,Set to missing,Below legal working age
+Restaurant coords ~0,3640,Dropped rows,Not real locations
+Missing Time_taken,0,Dropped rows,Target column
+Duplicate IDs,0,Dropped,One row per order
